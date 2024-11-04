@@ -1,15 +1,220 @@
+// Подключение и настройка шрифтов
 @font-face {
-	font-family: "Merriweather";
-	src: url("/src/fonts/Merriweather-Regular.ttf") format("truetype")
+	font-family: "MerriweatherRegular";
+	src: url("/src/fonts/Merriweather-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
+@font-face {
+	font-family: "MerriweatherBold";
+	src: url("/src/fonts/Merriweather-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
-body, button, form, input {
-  font-family: "Merriweather";
+@font-face {
+	font-family: "MerriweatherLight";
+	src: url("/src/fonts/Merriweather-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 body {
   margin: 0;
+  background-color: #F6F3F3;
+  height: auto;
+
+  h1 {
+    font-family: "MerriweatherBold";
+    font-size: 24px;
+  }
+
+  h2 {
+    font-family: "MerriweatherRegular";
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-family: "MerriweatherBold";
+    font-size: 16px;
+  }
+
+  h4 {
+    font-family: "MerriweatherBold";
+    font-size: 14px;
+  }
+
+  h5 {
+    font-family: "MerriweatherRegular";
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  h6 {
+    font-family: "MerriweatherLight";
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  input {
+    font-family: "MerriweatherRegular";
+    font-size: 14px;
+  }
+}
+
+// --- Оформление основного содержания
+
+main {
+  min-height: calc(100vh - 193px);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+
+  div {
+    width: 1200px;
+  }
+
+  h1 {
+    width: 1200px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+
+    color: #343030;
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    width: 1200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    article {
+      width: 278px;
+      height: 326px;
+      margin-bottom: 30px;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      border: 1px solid #E7E7E7;
+
+      img {
+        border-bottom: 1px solid #E7E7E7;
+        width: 278px;
+        height: 159px;
+      }
+
+      h2 {
+        width: 220px;
+        height: 54px;
+
+        margin: 0%;
+        margin-left: 24px;
+
+        color: #343030;
+      }
+
+      h3 {
+        height: 24px;
+        color: #343030;
+      }
+
+      h6 {
+        height: 21px;
+        margin: 0%;
+        color: #A0A0A0;
+        text-decoration: line-through;
+      }
+
+      div {
+        width: 95px;
+        height: 45px;
+        margin-left: 24px;
+
+        display: flex;
+        
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      button {
+        width: 118px;
+        height: 48px;
+        margin-right: 20px;
+
+        background-color: #382E2B;
+        border: none;
+        align-items: center;
+
+        h4 {
+          color: #F4F6F9;
+          margin: 0%;
+          padding: 0%;
+        }
+      }
+  
+      button:hover {
+        background-color: #776763;
+      }
+    }
+  } 
+}
+
+
+// --- Оформление товарных карточек
+
+.productDiscount {
+  h3 {
+    display: none;
+  }
+
+  div h3 {
+    display: inline;
+    margin: 0%;
+  }
+}
+
+.productDefault {
+  h3, h6 {
+    display: none;
+  }
+
+  div h3 {
+    margin: 0%;
+    display: inline;
+  }
+}
+
+.productSoldOut {
+  align-content: flex-start;
+
+  filter: opacity(50%);
+  h3 {
+    display: flex;
+    width: 186px;
+    height: 24px;
+
+    margin: 0%;
+    margin-left: 24px;
+    margin-top: 35px;
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  div, button {
+    display: none;
+  }
 }
 
 // --- Оформление шапки
@@ -23,52 +228,14 @@ header {
   display: flex;
   align-items: center;
 
-  nav, ul {
-    width: 519px;
-    height: 21px;
-    margin: 0%;
-    padding: 0%;
-  }
-
-  nav {
-    display: flex;
-    
-    ul {
-      display: flex;
-      justify-content: space-around;
-      list-style: none;
-    }
-
-    li {
-      flex: 1;
-      margin: 0%;
-      padding: 0%;
-      text-align: center;
-    }
-
-    a {
-      text-align: center;
-      text-decoration: none;
-      display: block;
-    }
-
-    h5 {
-      display: inline;
-      color: #343030;
-      font-weight: normal;
-      font-size: 14px;
-    }
-
-    h5:hover {
-      color: #271f1f;
-      font-weight: 700;
-    }
+  img {
+    margin-right: 48px;
   }
 
   form {
     width: 416px;
     height: 48px;
-    margin: 0%;
+    margin-left: 170px;
     padding: 0%;
 
     display: flex;
@@ -84,11 +251,15 @@ header {
       h4 {
         margin: 0%;
         border: none;
-        font-weight: normal; // временно пока не подкачал шрифты
       }
     }
 
+    button:hover {
+      background-color: #776763;
+    }
+
     input {
+      background-color: #F6F3F3;
       width: 294px;
       height: 46px;
       border: 1px solid #B5B5B5;
@@ -121,4 +292,93 @@ header {
   }
 }
 
+// --- Оформление навигации для футера и хедера
+nav, ul {
+  width: 519px;
+  height: 21px;
+  margin: 0%;
+  padding: 0%;
+}
 
+nav {
+  display: flex;
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  li {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+  }
+
+  a {
+    height: 21px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+
+  h5 {
+    display: inline;
+    color: #343030;
+    margin: 0%;
+  }
+
+  h5:hover {
+    color: #555555;
+  }
+}
+
+// --- Оформление футера
+
+footer {
+  width: 100%;
+  height: 96px;
+  background-color: #ECEAEA;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 48px;
+  }
+
+  address {
+    margin-left: 137px;
+    width: 449px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+    
+    h5 {
+      display: inline;
+      margin: 0%;
+      color: #555555;
+    }
+
+    img {
+      margin-right: 7px;
+    }
+  }
+
+  nav {
+    h5 {
+      color: #555555;
+    }
+  }
+
+  h5:hover {
+    color: #343030;
+  }
+}

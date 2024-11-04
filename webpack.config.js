@@ -43,7 +43,8 @@ module.exports = {
   },
 
   devServer: {
-    port: 8000,
+    port: 25565,
+    host: '0.0.0.0',
     compress: true,
     hot: true,
     static: {

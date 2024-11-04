@@ -16,7 +16,7 @@
   \***********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../src/fonts/Merriweather-Regular.ttf */ \"./src/fonts/Merriweather-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n  font-family: \"Merriweather\";\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format(\"truetype\");\n}\nbody, button, form, input {\n  font-family: \"Merriweather\";\n}\n\nbody {\n  margin: 0;\n}\n\nheader {\n  width: 100%;\n  height: 96px;\n  border-bottom: 1px solid #E1E1E1;\n  justify-content: center;\n  display: flex;\n  align-items: center;\n}\nheader nav, header ul {\n  width: 519px;\n  height: 21px;\n  margin: 0%;\n  padding: 0%;\n}\nheader nav {\n  display: flex;\n}\nheader nav ul {\n  display: flex;\n  justify-content: space-around;\n  list-style: none;\n}\nheader nav li {\n  flex: 1;\n  margin: 0%;\n  padding: 0%;\n  text-align: center;\n}\nheader nav a {\n  text-align: center;\n  text-decoration: none;\n  display: block;\n}\nheader nav h5 {\n  display: inline;\n  color: #343030;\n  font-weight: normal;\n  font-size: 14px;\n}\nheader nav h5:hover {\n  color: #271f1f;\n  font-weight: 700;\n}\nheader form {\n  width: 416px;\n  height: 48px;\n  margin: 0%;\n  padding: 0%;\n  display: flex;\n}\nheader form button {\n  width: 122px;\n  height: 48px;\n  border: none;\n  background-color: #403432;\n  color: #FFFFFF;\n}\nheader form button h4 {\n  margin: 0%;\n  border: none;\n  font-weight: normal;\n}\nheader form input {\n  width: 294px;\n  height: 46px;\n  border: 1px solid #B5B5B5;\n  border-right: none;\n  margin: 0%;\n  padding: 0%;\n  display: block;\n  text-indent: 15px;\n  outline: 0;\n  outline-offset: 0;\n}\nheader form ::placeholder {\n  color: #9F9F9F;\n}\nheader form :placeholder-shown {\n  border-color: #E1E1E1;\n}\nheader form :focus {\n  border-color: #B5B5B5;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webcatproject/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../src/fonts/Merriweather-Regular.ttf */ \"./src/fonts/Merriweather-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../src/fonts/Merriweather-Bold.ttf */ \"./src/fonts/Merriweather-Bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../src/fonts/Merriweather-Light.ttf */ \"./src/fonts/Merriweather-Light.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n  font-family: \"MerriweatherRegular\";\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format(\"truetype\");\n  font-style: normal;\n  font-weight: normal;\n}\n@font-face {\n  font-family: \"MerriweatherBold\";\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format(\"truetype\");\n  font-style: normal;\n  font-weight: normal;\n}\n@font-face {\n  font-family: \"MerriweatherLight\";\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_2___}) format(\"truetype\");\n  font-style: normal;\n  font-weight: normal;\n}\nbody {\n  margin: 0;\n  background-color: #F6F3F3;\n  height: auto;\n}\nbody h1 {\n  font-family: \"MerriweatherBold\";\n  font-size: 24px;\n}\nbody h2 {\n  font-family: \"MerriweatherRegular\";\n  font-size: 18px;\n  line-height: 27px;\n  font-weight: normal;\n}\nbody h3 {\n  font-family: \"MerriweatherBold\";\n  font-size: 16px;\n}\nbody h4 {\n  font-family: \"MerriweatherBold\";\n  font-size: 14px;\n}\nbody h5 {\n  font-family: \"MerriweatherRegular\";\n  font-size: 14px;\n  font-weight: normal;\n}\nbody h6 {\n  font-family: \"MerriweatherLight\";\n  font-size: 14px;\n  font-weight: 300;\n}\nbody input {\n  font-family: \"MerriweatherRegular\";\n  font-size: 14px;\n}\n\nmain {\n  min-height: calc(100vh - 193px);\n  display: flex;\n  flex-wrap: wrap;\n  align-content: center;\n  flex-direction: column;\n}\nmain div {\n  width: 1200px;\n}\nmain h1 {\n  width: 1200px;\n  height: 36px;\n  display: flex;\n  align-items: center;\n  color: #343030;\n  margin-top: 35px;\n  margin-bottom: 30px;\n}\nmain section {\n  width: 1200px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\nmain section article {\n  width: 278px;\n  height: 326px;\n  margin-bottom: 30px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  border: 1px solid #E7E7E7;\n}\nmain section article img {\n  border-bottom: 1px solid #E7E7E7;\n  width: 278px;\n  height: 159px;\n}\nmain section article h2 {\n  width: 220px;\n  height: 54px;\n  margin: 0%;\n  margin-left: 24px;\n  color: #343030;\n}\nmain section article h3 {\n  height: 24px;\n  color: #343030;\n}\nmain section article h6 {\n  height: 21px;\n  margin: 0%;\n  color: #A0A0A0;\n  text-decoration: line-through;\n}\nmain section article div {\n  width: 95px;\n  height: 45px;\n  margin-left: 24px;\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\nmain section article button {\n  width: 118px;\n  height: 48px;\n  margin-right: 20px;\n  background-color: #382E2B;\n  border: none;\n  align-items: center;\n}\nmain section article button h4 {\n  color: #F4F6F9;\n  margin: 0%;\n  padding: 0%;\n}\nmain section article button:hover {\n  background-color: #776763;\n}\n\n.productDiscount h3 {\n  display: none;\n}\n.productDiscount div h3 {\n  display: inline;\n  margin: 0%;\n}\n\n.productDefault h3, .productDefault h6 {\n  display: none;\n}\n.productDefault div h3 {\n  margin: 0%;\n  display: inline;\n}\n\n.productSoldOut {\n  align-content: flex-start;\n  filter: opacity(50%);\n}\n.productSoldOut h3 {\n  display: flex;\n  width: 186px;\n  height: 24px;\n  margin: 0%;\n  margin-left: 24px;\n  margin-top: 35px;\n}\n.productSoldOut h2 {\n  margin-top: 20px;\n}\n.productSoldOut div, .productSoldOut button {\n  display: none;\n}\n\nheader {\n  width: 100%;\n  height: 96px;\n  border-bottom: 1px solid #E1E1E1;\n  justify-content: center;\n  display: flex;\n  align-items: center;\n}\nheader img {\n  margin-right: 48px;\n}\nheader form {\n  width: 416px;\n  height: 48px;\n  margin-left: 170px;\n  padding: 0%;\n  display: flex;\n}\nheader form button {\n  width: 122px;\n  height: 48px;\n  border: none;\n  background-color: #403432;\n  color: #FFFFFF;\n}\nheader form button h4 {\n  margin: 0%;\n  border: none;\n}\nheader form button:hover {\n  background-color: #776763;\n}\nheader form input {\n  background-color: #F6F3F3;\n  width: 294px;\n  height: 46px;\n  border: 1px solid #B5B5B5;\n  border-right: none;\n  margin: 0%;\n  padding: 0%;\n  display: block;\n  text-indent: 15px;\n  outline: 0;\n  outline-offset: 0;\n}\nheader form ::placeholder {\n  color: #9F9F9F;\n}\nheader form :placeholder-shown {\n  border-color: #E1E1E1;\n}\nheader form :focus {\n  border-color: #B5B5B5;\n}\n\nnav, ul {\n  width: 519px;\n  height: 21px;\n  margin: 0%;\n  padding: 0%;\n}\n\nnav {\n  display: flex;\n}\nnav ul {\n  display: flex;\n  justify-content: space-between;\n  list-style: none;\n}\nnav li {\n  margin: 0%;\n  padding: 0%;\n  text-align: center;\n}\nnav a {\n  height: 21px;\n  text-align: center;\n  text-decoration: none;\n  display: block;\n}\nnav h5 {\n  display: inline;\n  color: #343030;\n  margin: 0%;\n}\nnav h5:hover {\n  color: #555555;\n}\n\nfooter {\n  width: 100%;\n  height: 96px;\n  background-color: #ECEAEA;\n  justify-content: center;\n  display: flex;\n  align-items: center;\n}\nfooter img {\n  margin-right: 48px;\n}\nfooter address {\n  margin-left: 137px;\n  width: 449px;\n  height: 22px;\n  display: flex;\n  justify-content: space-between;\n  font-style: normal;\n}\nfooter address div {\n  display: flex;\n  align-items: center;\n}\nfooter address h5 {\n  display: inline;\n  margin: 0%;\n  color: #555555;\n}\nfooter address img {\n  margin-right: 7px;\n}\nfooter nav h5 {\n  color: #555555;\n}\nfooter h5:hover {\n  color: #343030;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webcatproject/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -136,7 +136,27 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var htmx_org__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! htmx.org */ \"./node_modules/htmx.org/dist/htmx.esm.js\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _images_hlogo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/hlogo.svg */ \"./src/images/hlogo.svg\");\n/* harmony import */ var _images_flogo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/flogo.svg */ \"./src/images/flogo.svg\");\n\r\n\r\n\r\n\r\n\r\nwindow.htmx = __webpack_require__(/*! htmx.org */ \"./node_modules/htmx.org/dist/htmx.esm.js\");\n\n//# sourceURL=webpack://webcatproject/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var htmx_org__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! htmx.org */ \"./node_modules/htmx.org/dist/htmx.esm.js\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _images_hlogo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/hlogo.svg */ \"./src/images/hlogo.svg\");\n/* harmony import */ var _images_flogo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/flogo.svg */ \"./src/images/flogo.svg\");\n/* harmony import */ var _images_adres_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/adres.svg */ \"./src/images/adres.svg\");\n/* harmony import */ var _images_phone_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/phone.svg */ \"./src/images/phone.svg\");\n/* harmony import */ var _images_picture1_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/picture1.png */ \"./src/images/picture1.png\");\n/* harmony import */ var _images_picture2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/picture2.png */ \"./src/images/picture2.png\");\n/* harmony import */ var _images_picture3_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/picture3.png */ \"./src/images/picture3.png\");\n/* harmony import */ var _images_picture4_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./images/picture4.png */ \"./src/images/picture4.png\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nwindow.htmx = __webpack_require__(/*! htmx.org */ \"./node_modules/htmx.org/dist/htmx.esm.js\");\n\n//# sourceURL=webpack://webcatproject/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/fonts/Merriweather-Bold.ttf":
+/*!*****************************************!*\
+  !*** ./src/fonts/Merriweather-Bold.ttf ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fonts/Merriweather-Bold.ttf\";\n\n//# sourceURL=webpack://webcatproject/./src/fonts/Merriweather-Bold.ttf?");
+
+/***/ }),
+
+/***/ "./src/fonts/Merriweather-Light.ttf":
+/*!******************************************!*\
+  !*** ./src/fonts/Merriweather-Light.ttf ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fonts/Merriweather-Light.ttf\";\n\n//# sourceURL=webpack://webcatproject/./src/fonts/Merriweather-Light.ttf?");
 
 /***/ }),
 
@@ -147,6 +167,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var htmx
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"fonts/Merriweather-Regular.ttf\";\n\n//# sourceURL=webpack://webcatproject/./src/fonts/Merriweather-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/images/adres.svg":
+/*!******************************!*\
+  !*** ./src/images/adres.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/adres.svg\";\n\n//# sourceURL=webpack://webcatproject/./src/images/adres.svg?");
 
 /***/ }),
 
@@ -167,6 +197,56 @@ eval("module.exports = __webpack_require__.p + \"images/flogo.svg\";\n\n//# sour
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"images/hlogo.svg\";\n\n//# sourceURL=webpack://webcatproject/./src/images/hlogo.svg?");
+
+/***/ }),
+
+/***/ "./src/images/phone.svg":
+/*!******************************!*\
+  !*** ./src/images/phone.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/phone.svg\";\n\n//# sourceURL=webpack://webcatproject/./src/images/phone.svg?");
+
+/***/ }),
+
+/***/ "./src/images/picture1.png":
+/*!*********************************!*\
+  !*** ./src/images/picture1.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/picture1.png\";\n\n//# sourceURL=webpack://webcatproject/./src/images/picture1.png?");
+
+/***/ }),
+
+/***/ "./src/images/picture2.png":
+/*!*********************************!*\
+  !*** ./src/images/picture2.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/picture2.png\";\n\n//# sourceURL=webpack://webcatproject/./src/images/picture2.png?");
+
+/***/ }),
+
+/***/ "./src/images/picture3.png":
+/*!*********************************!*\
+  !*** ./src/images/picture3.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/picture3.png\";\n\n//# sourceURL=webpack://webcatproject/./src/images/picture3.png?");
+
+/***/ }),
+
+/***/ "./src/images/picture4.png":
+/*!*********************************!*\
+  !*** ./src/images/picture4.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/picture4.png\";\n\n//# sourceURL=webpack://webcatproject/./src/images/picture4.png?");
 
 /***/ })
 

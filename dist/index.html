@@ -18,38 +18,67 @@
             </nav>
             <form action="/search">
                 <input type="text" placeholder="Поиск по названию картины">
-                <button><h4 class="align">Найти</h4></button>
+                <button><h4>Найти</h4></button>
             </form>
         </header>
         <main>
-            <h1>Картины эпохи возвраждения</h1>
-            <section>
-                <article>
-                    <img src="images/picture1.png">
-                    <h2>«Рождение Венеры»<br> Сандро Боттичелли</h2>
-                    <h6>2 000 000 $</h6>
-                    <h5>1 000 000 $</h5>
-                    <button><h4>Купить</h4></button>
-                </article>
-                <article>
-                    <img src="images/picture2.png">
-                    <h2>«Тайная вечеря»<br> Леонардо да Винчи</h2>
-                    <h5>3 000 000 $</h5>
-                    <button><h4>Купить</h4></button>
-                </article>
-                <article>
-                    <img src="images/picture3.png">
-                    <h2>«Сотворение Адама»<br> Микеланджело</h2>
-                    <h6>6 000 000 $</h6>
-                    <h5>3 000 000 $</h5>
-                    <button><h4>Купить</h4></button>
-                </article>
-                <article>
-                    <img src="images/picture4.png">
-                    <h2>«Урок анатомии»<br> Рембрандт</h2>
-                    <h3>Продана на аукционе</h3>
-                </article>
-            </section>
+            <div>
+                <h1>Картины эпохи возвраждения</h1>
+                <section>
+                    <article class="productDiscount">
+                        <img src="images/picture1.png">
+                        <h2>«Рождение Венеры»<br> Сандро Боттичелли</h2>
+                        <div>
+                            <h6>2 000 000 $</h6>
+                            <h3>1 000 000 $</h3>
+                        </div>
+                        <h3>Продана на аукционе</h3>
+                        <button><h4>Купить</h4></button>
+                    </article>
+                    <article class="productDefault">
+                        <img src="images/picture2.png">
+                        <h2>«Тайная вечеря»<br> Леонардо да Винчи</h2>
+                        <div>
+                            <h3>3 000 000 $</h3>
+                            <h6>9 000 000 $</h6>
+                        </div>
+                        <h3>Продана на аукционе</h3>
+                        <button><h4>Купить</h4></button>
+                    </article>
+                    <article class="productDiscount">
+                        <img src="images/picture3.png">
+                        <h2>«Сотворение Адама»<br> Микеланджело</h2>
+                        <div>
+                            <h6>6 000 000 $</h6>
+                            <h3>5 000 000 $</h3>
+                        </div>
+                        <h3>Продана на аукционе</h3>
+                        <button><h4>Купить</h4></button>
+                    </article>
+                    <article class="productSoldOut">
+                        <img src="images/picture4.png">
+                        <h2>«Урок анатомии»<br> Рембрандт</h2>
+                        <div>
+                            <h3>2 000 000 $</h3>
+                            <h6>6 000 000 $</h6>
+                        </div>
+                        <h3>Продана на аукционе</h3>
+                        <button><h4>Купить</h4></button>
+                    </article>
+                    <!-- ПРОВЕРКА НА ОТОБРАЖЕНИЕ СЛЕДУЮЩЕЙ ЛИНИИ ТОВАРОВ -->
+
+                    <!-- <article class="productDiscount">
+                        <img src="images/picture1.png">
+                        <h2>«Рождение Венеры»<br> Сандро Боттичелли</h2>
+                        <div>
+                            <h6>2 000 000 $</h6>
+                            <h3>1 000 000 $</h3>
+                        </div>
+                        <h3>Продана на аукционе</h3>
+                        <button><h4>Купить</h4></button>
+                    </article> -->
+                </section>
+            </div>
         </main>
         <footer>
             <img src="images/flogo.svg">     
@@ -63,10 +92,14 @@
                 </ul>
             </nav>
             <address>
-                <img src="images/phone.svg">
-                <h5>+7 (495) 555-55-55</h5>
-                <img src="images/adres.svg">
-                <h5>г. Екатеринбург ул. Генеральская, 3</h5>
+                <div>
+                    <img src="images/phone.svg" width="14" height="14">
+                    <h5>+7 (495) 555-55-55</h5>
+                </div>
+                <div>
+                    <img src="images/adres.svg" width="10.14" height="14">
+                    <h5>г. Москва, ул. Расплетина, 24</h5>
+                </div>
             </address>
         </footer>
     </body>
