@@ -21,9 +21,9 @@
 }
 
 body {
+  isolation: isolate;
   margin: 0;
   background-color: #F6F3F3;
-  height: auto;
 
   h1 {
     font-family: "MerriweatherBold";
@@ -129,10 +129,23 @@ main {
       }
 
       h6 {
+        position: relative;
+        display: inline-block;
         height: 21px;
         margin: 0%;
         color: #A0A0A0;
-        text-decoration: line-through;
+
+        // Перечеркивающая линия цены
+        &::before { 
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: 45%;
+          border-top: 0.8px solid #A0A0A0;
+          mix-blend-mode: color-dodge; //  "Обесцвечивание" в местах пересечения с тестом
+        }
       }
 
       div {
@@ -186,6 +199,9 @@ main {
 .productDefault {
   h3, h6 {
     display: none;
+  }
+  div h3{
+    height: auto;
   }
 
   div h3 {
