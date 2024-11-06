@@ -56,7 +56,7 @@ body {
   h6 {
     font-family: "MerriweatherLight";
     font-size: 14px;
-    font-weight: 300;
+    font-weight: normal;
   }
 
   input {
@@ -109,8 +109,9 @@ main {
 
       img {
         border-bottom: 1px solid #E7E7E7;
-        width: 278px;
-        height: 159px;
+        width: 280px;
+        height: 160px;
+        overflow: hidden;
       }
 
       h2 {
@@ -163,20 +164,43 @@ main {
         width: 118px;
         height: 48px;
         margin-right: 20px;
+        padding: 0%;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
 
         background-color: #382E2B;
         border: none;
         align-items: center;
+        cursor: pointer;
+        position: relative;
 
-        h4 {
-          color: #F4F6F9;
+        div {
           margin: 0%;
-          padding: 0%;
+          width: auto;
+          height: 21px;
+          display: flex;
+          flex-wrap: nowrap;
+
+          h4 {
+            color: #F4F6F9;
+            margin: 0%;
+            padding: 0%;
+          }
+
+          img {
+            width: 20px;
+            height: 20px;
+            border: none;
+            margin-right: 4px;
+
+            display: none;
+          }
         }
-      }
-  
-      button:hover {
-        background-color: #776763;
+
+        &:hover {
+          background-color: #776763;
+        }
       }
     }
   } 
@@ -233,6 +257,48 @@ main {
   }
 }
 
+// --- Оформление товарных кнопок
+
+.loader {
+  div {
+    display: none;
+  }
+
+  pointer-events: none;
+
+  &::after {
+    position: absolute;
+    content: "";
+    border: 4px solid #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: 12px;
+    left: 51px;
+    border-top-color: #6d6d6d ;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.inCart {
+  background-color: #5B3A32;
+  pointer-events: none;
+
+  img {
+    display: inline;
+  }
+}
+
 // --- Оформление шапки
 
 header {
@@ -264,14 +330,16 @@ header {
       background-color: #403432; 
       color: #FFFFFF;
 
+      cursor: pointer;
+
       h4 {
         margin: 0%;
         border: none;
       }
-    }
 
-    button:hover {
-      background-color: #776763;
+      &:hover {
+        background-color: #776763;
+      }
     }
 
     input {
@@ -345,7 +413,7 @@ nav {
   }
 
   h5:hover {
-    color: #555555;
+    color: #000000;
   }
 }
 
@@ -378,6 +446,7 @@ footer {
     }
     
     h5 {
+      pointer-events: none;
       display: inline;
       margin: 0%;
       color: #555555;
@@ -395,6 +464,6 @@ footer {
   }
 
   h5:hover {
-    color: #343030;
+    color: #000000;
   }
 }

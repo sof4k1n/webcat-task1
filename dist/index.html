@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta name="htmx-config" content='{"selfRequestsOnly":false}'>
         <title>Тест верстка</title>
     <script defer src="index.js"></script></head>
     <body>
@@ -33,7 +34,16 @@
                             <h3>1 000 000 $</h3>
                         </div>
                         <h3>Продана на аукционе</h3>
-                        <button><h4>Купить</h4></button>
+                        <button data-button-id="button1"
+                                class="btn"
+                                hx-get="https://jsonplaceholder.typicode.com/posts/1"
+                                hx-trigger="click"
+                                hx-swap="none">                          
+                            <div>
+                                <img src="images/check.svg">
+                                <h4>Купить</h4>
+                            </div>
+                        </button>
                     </article>
                     <article class="productDefault">
                         <img src="images/picture2.png">
@@ -43,7 +53,16 @@
                             <h6>9 000 000 $</h6>
                         </div>
                         <h3>Продана на аукционе</h3>
-                        <button><h4>Купить</h4></button>
+                        <button data-button-id="button2"
+                                class="btn"
+                                hx-get="https://jsonplaceholder.typicode.com/posts/1"
+                                hx-trigger="click"
+                                hx-swap="none">                          
+                            <div>
+                                <img src="images/check.svg">
+                                <h4>Купить</h4>
+                            </div>
+                        </button>
                     </article>
                     <article class="productDiscount">
                         <img src="images/picture3.png">
@@ -53,7 +72,16 @@
                             <h3>5 000 000 $</h3>
                         </div>
                         <h3>Продана на аукционе</h3>
-                        <button><h4>Купить</h4></button>
+                        <button data-button-id="button3"
+                                class="btn"
+                                hx-get="https://jsonplaceholder.typicode.com/posts/1"
+                                hx-trigger="click"
+                                hx-swap="none">                          
+                            <div>
+                                <img src="images/check.svg">
+                                <h4>Купить</h4>
+                            </div>
+                        </button>
                     </article>
                     <article class="productSoldOut">
                         <img src="images/picture4.png">
@@ -63,7 +91,16 @@
                             <h6>6 000 000 $</h6>
                         </div>
                         <h3>Продана на аукционе</h3>
-                        <button><h4>Купить</h4></button>
+                        <button data-button-id="button4"
+                                class="btn"
+                                hx-get="https://jsonplaceholder.typicode.com/posts/1"
+                                hx-trigger="click"
+                                hx-swap="none">                          
+                            <div>
+                                <img src="images/check.svg">
+                                <h4>Купить</h4>
+                            </div>
+                        </button>
                     </article>
                     <!-- ПРОВЕРКА НА ОТОБРАЖЕНИЕ СЛЕДУЮЩЕЙ ЛИНИИ ТОВАРОВ -->
 
@@ -75,7 +112,16 @@
                             <h3>1 000 000 $</h3>
                         </div>
                         <h3>Продана на аукционе</h3>
-                        <button><h4>Купить</h4></button>
+                        <button data-button-id="button5"
+                                class="btn"
+                                hx-get="https://jsonplaceholder.typicode.com/posts/1"
+                                hx-trigger="click"
+                                hx-swap="none">                          
+                            <div>
+                                <img src="images/check.svg">
+                                <h4>Купить</h4>
+                            </div>
+                        </button>
                     </article> -->
                 </section>
             </div>
